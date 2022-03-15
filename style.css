@@ -7,3 +7,33 @@
 body {
     background-image: linear-gradient(to right, #00D6D6 , #E011E0);
 }
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    color: #ffffff;
+}
+
+header h1 {
+    font-size: 5rem;
+}
+
+.video {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.video video {
+    margin-top: 20px;
+}
+
+.menu {
+    background-color: #ffffff;
+    height: 500px;
+    margin: 0 46px;
+}
