@@ -20,7 +20,7 @@ header h1 {
     font-size: 5rem;
 }
 
-.video {
+.overskrift {
     color: #ffffff;
     display: flex;
     justify-content: center;
@@ -28,12 +28,69 @@ header h1 {
     flex-direction: column;
 }
 
-.video video {
-    margin-top: 20px;
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+.black-section {
+    height: 40px;
+    background-color: #202020;
+    margin: 0 46px;
+    display: flex;
+    justify-content: center;
+}
+
+.triangel {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 55px 55px 0 55px;
+    border-color: #212121 transparent transparent transparent;
 }
 
 .menu {
     background-color: #ffffff;
     height: 500px;
     margin: 0 46px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    border: solid 2px #000000;
 }
+
+.menu img {
+    height: 30px;
+    width: auto;
+}
+
+.menu-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 20px;
+}
+
+.menu-content a {
+    text-decoration: none;
+    color: #000000;
+    border: solid #000000 2px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.instagram, .facebook, .twitter, .itunes, .spotify {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+hr {
+    height: 3px;
+    width: 100%;
+    background-color: #000000;
+}
+
