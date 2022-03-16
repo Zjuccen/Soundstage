@@ -2,10 +2,15 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: roboto;
 }
 
 body {
     background-image: linear-gradient(to right, #00D6D6 , #E011E0);
+}
+
+h1 {
+    font-family: Brush Script MT;
 }
 
 header {
@@ -39,6 +44,9 @@ header h1 {
     margin: 0 46px;
     display: flex;
     justify-content: center;
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .triangel {
@@ -57,6 +65,9 @@ header h1 {
     display: flex;
     justify-content: space-between;
     border: solid 2px #000000;
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .menu img {
@@ -94,3 +105,66 @@ hr {
     background-color: #000000;
 }
 
+@media screen and (min-width: 450px) { 
+    
+    *{
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+
+    header {
+        margin-top: -10px;
+    }
+
+    header h1 {
+        font-size: 100px;
+    }
+
+    .overskrift {
+        margin-bottom: -75px;
+        margin-top: 25px;
+        font-size: 35px;
+    }
+
+    .video video{
+        width: 750px;
+        height: 600px;
+        margin-bottom: px;
+    }
+
+    .black-section {
+        width: 750px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        overflow-y: hidden;
+    }
+
+    .triangel {
+        border-width: 100px 100px 0 100px;
+        z-index: 2;
+    }
+
+    .menu {
+        width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .menu img {
+        height: 75px;
+        width: auto;
+        margin-left: 20px;
+    }
+
+    .menu-content a {
+        font-size: 24px;
+        margin-right: 20px;
+        padding: 15px;
+        font-weight: bold;
+    }
+
+}
